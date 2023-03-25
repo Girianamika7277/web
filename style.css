@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+    font-family:sans-serif;
+    border-color:black;
+    background-color: aquamarine;
+}
+.h1{
+    padding: 20px 70px;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;;
+}
+.login-btn{
+    width: 40%;
+    height: 2rem;
+    background-color: rgb(207, 17, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 0.25em;
+    margin-top: -80px;
+
+}
+.login-btn:hover {
+    transform: scale(1.25);
+}
+.text {
+  position: relative;
+}
+.spn {
+    color: red;
+    padding-right: 0%;
+    font-size: 15px;
+}
+    .cover{
+        height: 350px;
+        width: 25rem;
+        display: flex;
+        position: relative;
+        box-shadow:0 0.188em 1.550em rgb(130, 156,156);
+        background-color: aliceblue;
+        border-radius: 1rem;
+        justify-content:space-around;
+        align-items: center;
+        margin: 15% 35% ;
+        overflow: hidden;
+         flex-direction: column;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
